@@ -3,6 +3,8 @@
 import React from "react";
 import Frame, { FrameContextConsumer } from "react-frame-component";
 
+// chrome.runtime.getURL - iframe to have its own style
+
 export const IFrame = ({ children }) => {
   return (
     <Frame
